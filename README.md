@@ -1,4 +1,4 @@
-# soknad-docker-jest-image-snapshot
+# docker-jest-image-snapshot
 Docker image for jest-image-snapshot.  
 
 jest-image-snapshot er et verktøy for automatisk visuell diffing.
