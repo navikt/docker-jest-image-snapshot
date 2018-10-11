@@ -1,13 +1,14 @@
 {
-  "name": "vrt",
+  "name": "soknad-docker-jest-image-snapshot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "update": "jest --updateSnapshot"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "jest": "23.6.0",
     "jest-image-snapshot": "2.5.0"
