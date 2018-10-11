@@ -6,6 +6,6 @@ WORKDIR /app
 COPY ./package.json /app/
 RUN npm i
 
-COPY ./jest.config.js ./jest.setup.js ./html-image-reporter.js ./utils.js /app/
+COPY ./jest.config.js ./jest.setupTestFramework.js ./html-image-reporter.js ./jest.setup.js /app/
 
 ENTRYPOINT ["npm", "run"]
